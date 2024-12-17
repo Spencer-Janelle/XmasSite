@@ -1,0 +1,81 @@
+<!--mainPage.html-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Question1</title>
+	<style>
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+		.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.logo-class {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+.question-class {
+  width: 100%;
+}
+		.button-class {
+			background-color: #4CAF50;
+			/* Green */
+			border: none;
+			color: white;
+			padding: 10px 20px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+			cursor: pointer;
+			border-radius: 4px;
+		}
+	</style>
+</head>
+
+<body style="background-color:#00016D;">
+	<img src="../images/mainLogo.jpg" alt="Millionare Logo" class="logo-class">
+	<img src="question5/question.jpg" alt="What is the square root of 121?" class="center">
+	<div class="row">
+		<div class="column">
+	<a href="oopsYouFailed.html" class="question-class">
+		<img src="question5/answerA.jpg" alt="16" class="center"></a>
+	</div>
+	<div class="column">
+		<a href="oopsYouFailed.html" class="question-class">
+			<img src="question5/answerB.jpg" alt="400" class="center"></a>
+		</div>
+	</div>
+	<div class="row">
+		<div class="column">
+	<a href="question6.html" class="question-class">
+		<img src="question5/answerC.jpg" alt="11" class="center"></a>
+	</div>
+	<div class="column">
+		<a href="oopsYouFailed.html" class="question-class">
+			<img src="question5/answerD.jpg" alt="24" class="center"></a>
+		</div>
+	</div>
+	</body>
+
+</html>
